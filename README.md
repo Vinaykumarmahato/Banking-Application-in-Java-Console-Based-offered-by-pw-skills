@@ -23,7 +23,7 @@ The Bank Console Application is a Java-based program that allows users to perfor
 ## Getting Started
 To use this application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/bank-console-application.git`
+1. Clone the repository: `git clone https://github.com/ADVindiancoder/bank-console-application.git`
 2. Navigate to the project directory: `cd bank-console-application`
 3. Compile the Java source files: `javac com/advindiancoderVinayKumar/*.java`
 4. Run the application: `java com.advindiancoderVinayKumar.Main`
