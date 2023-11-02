@@ -1,47 +1,45 @@
-# Bank Console Application 🏦
+# 🔢 1. A simple Banking Application in Java(Console Based) Assigned By PW Skills
 
-A simple console-based banking system application developed in Java.
+## 📑 Table of Contents
 
-## Table of Contents
-- 📜 [Introduction](#introduction)
-- ✨ [Features](#features)
-- ⭐️ [Getting Started](#getting-started)
-- ⭐️ [Usage](#usage)
-- ⭐️ [Contributing](#contributing)
-- ⚖️ [License](#license)
+### 📜 Introduction
+### ✨ Features
+### ⭐️ Getting Started
+### ⭐️ Usage
+### ⭐️ Contributing
+### ⚖️ License
+## 📜 Introduction
+The Bank Console Application is a Java-based program that allows users to perform a wide range of banking operations. It provides a command-line interface for easy interaction with the banking system. Key features include:
 
-## Introduction
-The Bank Console Application is a Java-based program that allows users to perform various banking operations such as creating a new account, checking the account balance, depositing and withdrawing funds, and viewing demo accounts. The application provides a command-line interface for interacting with the banking system.
+## ✨ Features
 
-## Features
 - ✨ Create a new account
 - ✨ Check account balance
 - ✨ Deposit funds into an account
 - ✨ Withdraw funds from an account
 - ✨ View demo accounts
+## ⭐ Getting Started
+- To start using this application, follow these simple steps:
 
-## Getting Started
-To use this application locally, follow these steps:
+- ⭐ Clone the repository: git clone https://github.com/ADVindiancoder/bank-console-application.git
+- ⭐ Navigate to the project directory: cd bank-console-application
+- ⭐ Compile the Java source files: javac com/advindiancoderVinayKumar/*.java
+- ⭐ Run the application: java com.advindiancoderVinayKumar.Main
+## ⭐ Usage
+### Once the application is up and running, you'll find a menu with various options. Use the numeric keys to select your desired operation. The available actions are:
 
-1. Clone the repository: `git clone https://github.com/ADVindiancoder/bank-console-application.git`
-2. Navigate to the project directory: `cd bank-console-application`
-3. Compile the Java source files: `javac com/advindiancoderVinayKumar/*.java`
-4. Run the application: `java com.advindiancoderVinayKumar.Main`
+- ⚙ Create a new account
+- ⚙ Check account balance
+- ⚙ Deposit funds
+- ⚙ Withdraw funds
+- ⚙ View demo accounts
+- ⚙ Exit
+- Follow the on-screen prompts to perform your chosen banking operation, and you'll be seamlessly returned to the main menu.
 
-## Usage
-Once the application is running, you will see a menu with different options. Use the numeric keys to select an operation:
+## ⭐ Contributing
+This project encourages contributions. Feel free to get involved by:
 
-- Create a new account
-- Check account balance
-- Deposit funds
-- Withdraw funds
-- View demo accounts
-- Exit
-
-Follow the on-screen prompts to perform the desired banking operation. After completing an operation, you will be returned to the main menu.
-
-## Contributing
-Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request. For major changes, please open an issue first to discuss your ideas.
-
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this code as per the terms of the license.
+✏ Submitting a pull request with your suggestions, improvements, or bug fixes
+💡 Opening an issue to discuss major changes or new ideas
+## ⚖ License
+This project is licensed under the MIT License. You are welcome to use, modify, and distribute this code as per the terms of the license.
