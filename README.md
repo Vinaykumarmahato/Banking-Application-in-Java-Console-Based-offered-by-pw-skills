@@ -1,4 +1,5 @@
 # 🔢 1. A simple Banking Application in Java(Console Based) Assigned By PW Skills
+![My Image](logo.png)
 
 Welcome to the Console Banking Application, a simple text-based banking system written in Java. This application allows users to create accounts, deposit and withdraw funds, and check their account balances, all within a console interface.
 
