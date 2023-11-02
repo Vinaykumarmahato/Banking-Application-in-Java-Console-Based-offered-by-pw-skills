@@ -1,45 +1,67 @@
 # 🔢 1. A simple Banking Application in Java(Console Based) Assigned By PW Skills
 
-## 📑 Table of Contents
+Welcome to the Console Banking Application, a simple text-based banking system written in Java. This application allows users to create accounts, deposit and withdraw funds, and check their account balances, all within a console interface.
 
-### 📜 Introduction
-### ✨ Features
-### ⭐️ Getting Started
-### ⭐️ Usage
-### ⭐️ Contributing
-### ⚖️ License
-## 📜 Introduction
-The Bank Console Application is a Java-based program that allows users to perform a wide range of banking operations. It provides a command-line interface for easy interaction with the banking system. Key features include:
+## Features
+- Create an account with a unique account number.
+- Deposit funds into your account.
+- Withdraw funds from your account.
+- Check your account balance.
+- Handle insufficient funds scenarios during withdrawals.
 
-## ✨ Features
+## Getting Started
+To run the Console Banking Application, follow these steps:
 
-- ✨ Create a new account
-- ✨ Check account balance
-- ✨ Deposit funds into an account
-- ✨ Withdraw funds from an account
-- ✨ View demo accounts
-## ⭐ Getting Started
-- To start using this application, follow these simple steps:
+rom this repository.
 
-- ⭐ Clone the repository: git clone https://github.com/ADVindiancoder/bank-console-application.git
-- ⭐ Navigate to the project directory: cd bank-console-application
-- ⭐ Compile the Java source files: javac com/advindiancoderVinayKumar/*.java
-- ⭐ Run the application: java com.advindiancoderVinayKumar.Main
-## ⭐ Usage
-### Once the application is up and running, you'll find a menu with various options. Use the numeric keys to select your desired operation. The available actions are:
+3. Open your command prompt or terminal and navigate to the directory where `BankingApplication.java` is located.
 
-- ⚙ Create a new account
-- ⚙ Check account balance
-- ⚙ Deposit funds
-- ⚙ Withdraw funds
-- ⚙ View demo accounts
-- ⚙ Exit
-- Follow the on-screen prompts to perform your chosen banking operation, and you'll be seamlessly returned to the main menu.
+4. Compile the Java code using the following command:
+  ### shell
+   - javac BankingApplication.java
+  
+## Run the application using the following command:
+- java BankingApplication
 
-## ⭐ Contributing
-This project encourages contributions. Feel free to get involved by:
+## Usage
+Once the application is running, you will be presented with a menu:
 
-✏ Submitting a pull request with your suggestions, improvements, or bug fixes
-💡 Opening an issue to discuss major changes or new ideas
-## ⚖ License
-This project is licensed under the MIT License. You are welcome to use, modify, and distribute this code as per the terms of the license.
+- Create an Account: Enter the account holder's name to create a new account. You will receive an account number.
+
+- Deposit Funds: Enter your account number and the amount you want to deposit.
+
+- Withdraw Funds: Enter your account number and the amount you want to withdraw. The application will check for sufficient funds.
+
+- Check Balance: Enter your account number to view your current balance.
+
+- Exit: Exit the application.
+
+##  Sample Usage
+Welcome to the Console Banking Application
+- 1. Create an Account
+- 2. Deposit Funds
+- 3. Withdraw Funds
+- 4. Check Balance
+- 5. Exit
+### Select an option (1-5): 1
+
+- Enter the account holder's name: John Doe
+- Account created successfully. Your account number is: ACC1
+
+### Welcome to the Console Banking Application
+- 1. Create an Account
+- 2. Deposit Funds
+- 3. Withdraw Funds
+- 4. Check Balance
+- 5. Exit
+### Select an option (1-5): 2
+
+- Enter your account number: 123450123456
+- Enter the amount to deposit: $10000
+- Deposit successful. New balance: $100.0
+
+## Note
+This is a simplified example for educational purposes and lacks advanced features, such as authentication and persistence. In a real-world application, you would use a database for data storage and add security measures.
+The account data is stored in memory and will be lost when the program is closed.
+
+
